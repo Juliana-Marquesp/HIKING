@@ -17,15 +17,16 @@ header {
 }
 
 .menu {
-	background-color: #b91414;
+	background-color: #243055;
 	top: 0;
 	width: 100vw;
 	z-index: 1;
+	position: fixed;
 }
 
 .menu img{
-	height: 25em;
-	margin-left: 45px;
+	height: 20em;
+	margin: 30px auto -100px 45px;
 }
 
 .site-title {
@@ -58,5 +59,9 @@ h3 {
 
 .valores li, .valores p{
 	list-style: disc;
-	margin: 0px 300px 05px;
+	margin: 0px 280px 05px;
+}
+
+.espacoF div{
+	height: 10em;
 }
