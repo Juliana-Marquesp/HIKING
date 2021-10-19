@@ -57,11 +57,91 @@ h3 {
 	font-size: 2em;
 }
 
+section .mvv {
+	margin-top: -20px;
+}
+
+#mvv:before {
+	animation: forwards;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+}
+
 .valores li, .valores p{
-	list-style: disc;
 	margin: 0px 280px 05px;
 }
 
-.espacoF div{
-	height: 10em;
+.rodape{
+   position: static;
+   bottom: 0;
+   height: 13vh;
+   width: 100vw;
+   background-color: #243055;
+   color: white;
+   margin-top: 55px;
+   display: flex;
+}
+.rodape li{
+	margin: 0px 280px 05px;
+	font-size: 1em;
+}
+
+.rodape2 {
+	margin-top: 10px;
+	flex: 50%;
+	column-gap: 5px;
+}
+
+@media(max-width: 300px) {
+	body {
+		font-size: 11px;
+	}
+
+	.site-title{
+		margin: 0px 30px 05px;
+	}
+}
+
+@media(max-width: 600px) {
+	body {
+		font-size: 13px;
+	}
+
+	.menu a {
+		display: block;
+		font-size: 1.4em;
+		padding: 15px 05px;
+	}
+
+	p {
+		margin: 50px;
+	}
+}
+
+@media (max-width: 900px) {
+	body {
+		font-size: 15px;
+	}
+
+	.menu a {
+		display: block;
+		font-size: 1.5em;
+		padding: 25px 20px;
+	}
+
+	p {
+		margin: 50px 70px 0px;
+		text-align: justify;
+	}
 }
